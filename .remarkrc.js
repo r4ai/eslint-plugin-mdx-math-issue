@@ -6,10 +6,10 @@ import remarkPresetPrettier from "remark-preset-prettier";
 
 export default {
   plugins: [
+    remarkMath,
     remarkPresetLintConsistent,
     remarkPresetLintRecommended,
     remarkPresetLintMarkdownStyleGuide,
     remarkPresetPrettier,
-    remarkMath,
   ],
 };
